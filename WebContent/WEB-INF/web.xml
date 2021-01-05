@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+ <welcome-file-list>
+ 	<welcome-file>AcceuilServlet</welcome-file>
+ </welcome-file-list>
+ 
+ <servlet>
+    <servlet-name>BiblioServlet</servlet-name>
+    <servlet-class>co.simplon.controller.BiblioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BiblioServlet</servlet-name>
+    <url-pattern>/inscription</url-pattern>
+  </servlet-mapping>
+  
+  
+
+  
+  <servlet>
+    <servlet-name>ListerServlet</servlet-name>
+    <servlet-class>co.simplon.controller.ListerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListerServlet</servlet-name>
+    <url-pattern>/ListeAbonnes</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>co.simplon.controller.AdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/Bibliothecaire</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LivreAddServlet</servlet-name>
+    <servlet-class>co.simplon.controller.LivreAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LivreAddServlet</servlet-name>
+    <url-pattern>/AjouterLivre</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>GestionAdherent</servlet-name>
+    <servlet-class>co.simplon.controller.GestionAdherent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionAdherent</servlet-name>
+    <url-pattern>/gestionAdherents</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>GestionLivre</servlet-name>
+    <servlet-class>co.simplon.controller.GestionLivre</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GestionLivre</servlet-name>
+    <url-pattern>/gestionLivre</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ListerLivre</servlet-name>
+    <servlet-class>co.simplon.controller.ListerLivre</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListerLivre</servlet-name>
+    <url-pattern>/ListeLivre</url-pattern>
+  </servlet-mapping>
+ 	<servlet>
+ 	
+    <servlet-name>Abonne</servlet-name>
+    <servlet-class>co.simplon.controller.Abonne</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Abonne</servlet-name>
+    <url-pattern>/Abonnes</url-pattern>
+  </servlet-mapping>
+ 
+  
+</web-app>

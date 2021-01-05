@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+header{
+	display: flex;
+	justify-content: space-around;
+	background-color: #27ae60;
+	width: 100%;
+	
+}
+
+.logonav{
+	
+	width:100px;
+	height:100px;
+	
+}
+
+ #navbar ul {
+
+    list-style: none;
+  
+}
+ #navbar ul li a{
+       text-decoration: none;
+       margin: 0 50px;
+       
+ }
+
+ 
+ #navbar ul li{
+     display: inline;
+     align-items: flex-end;
+     position:relative;
+     top:15px;
+ }
+
+ #navbar a{
+
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+ a:hover {
+  font-size: 15pt; 
+ }
+
+#imageC{
+	position: relative;
+	left: 30%;
+}
+
+body, p, legend, label, input {
+    font: normal 8pt verdana, helvetica, sans-serif;
+}
+
+fieldset {
+    padding: 10px;
+    border: 1px #0568CD solid;
+}
+
+legend {
+    font-weight: bold;
+    color: #0568CD;
+}
+
+/* Forms --------------------------------------------------------------------------------------- */
+
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+}
+
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+}
+
+form input.sansLabel {
+    margin-left: 200px;
+}
+
+form .requis {
+    color: #c00;
+}
+
+h1{
+
+text-align: center;
+}
+
+footer{
+	position: relative;
+	top:400px;
+	background-color: #27ae60;
+}
+
+.gestion{
+	
+	display: flex;
+}
+
+.bouton{
+	
+	border: 1px solid black;
+	padding: 0 50px;
+	margin: 15px;
+	background-color: blue;
+	color: white;
+	
+}
+
+
+.gestion ul li a{
+       text-decoration: none;
+       margin: 0 50px;
+       
+ }
+
+ 
+ .gestion ul li{
+     display: inline;
+     align-items: flex-end;
+     position:relative;
+     top:15px;
+ }
+ 
+ table{
+ 
+ border-collapse: collapse;
+ 
+ }
+ 
+ th,td{
+ padding: 10px;
+ 
+ }
+ 
+ caption{
+ background-color : #0AD;
+ font-weight: bold;
+ }
+ 
