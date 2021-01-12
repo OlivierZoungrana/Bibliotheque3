@@ -34,7 +34,7 @@ public class BiblioServlet extends HttpServlet {
 	   
     public BiblioServlet() {
         super();
-        // TODO Auto-generated constructor stub
+       
     }
 
 	/**
